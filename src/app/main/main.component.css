@@ -1,0 +1,13 @@
+.main{
+    background-image:url("charminar.jpg");
+    background-size: cover;
+    color: white;
+    height: 100vh;
+    font-size:xx-large;
+    text-shadow: 3px 3px 8px rgb(255, 234, 2);
+    padding-left: 18px;
+}
+#about
+{
+    background-image: url("/Hyderabad/src/app/main/about.jpg");
+}

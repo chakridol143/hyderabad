@@ -1,0 +1,23 @@
+.header{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+#names{
+    display: flex;
+    column-gap:2rem;;
+    font-size: large;
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 3px 3px 10px ;
+  
+}
+
+.names:hover{
+    text-decoration: underline;
+    cursor: pointer; 
+}
