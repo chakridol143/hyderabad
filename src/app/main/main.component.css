@@ -1,13 +1,61 @@
 .main{
-    background-image:url("charminar.jpg");
+    background-image:url(/charminar.jpg);
     background-size: cover;
     color: white;
     height: 100vh;
+    width: 100vw;
     font-size:xx-large;
     text-shadow: 3px 3px 8px rgb(255, 234, 2);
     padding-left: 18px;
 }
-#about
-{
-    background-image: url("/Hyderabad/src/app/main/about.jpg");
+
+
+@media(max-width:680px){
+    .main{
+        width: 130vw;
+        height: 100vh;
+    }
+}
+@media(max-width:600px){
+    .main{
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 135vw;
+    }
+
+    #text1{
+        font-size: 35px;
+    }
+    #text2{
+        font-size: 22px;
+    }
+    }
+    #about
+    {
+        background-image: url(/about.jpg);
+        background-size: cover;
+        height: 100vh;
+        padding-top: 5px;
+        width: 100vw;
+    }
+    #card1:hover{
+        transform: scale(1.065);
+    }
+    #card{
+    font-family: calibri;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+#card1{
+    cursor: pointer;
+    width: 300px;
+    font-size:small;
+        transition: 1.4s;
+        height: 475px;
+    background-color:  #ded9d9;
+}
+#cardimg{
+    width: 300px;
+    height: 290px;
 }

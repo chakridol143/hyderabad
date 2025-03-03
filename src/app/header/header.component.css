@@ -1,7 +1,8 @@
 .header{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 20px;
-    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,8 +10,9 @@
 }
 #names{
     display: flex;
-    column-gap:2rem;;
+    column-gap:1.5rem;;
     font-size: large;
+    justify-content: space-between;
     font-weight: bold;
     color: aliceblue;
     text-shadow: 3px 3px 10px ;
@@ -20,4 +22,12 @@
 .names:hover{
     text-decoration: underline;
     cursor: pointer; 
+}
+@media(max-width:680px){
+.header{
+    width: 123.6vw;
+}
+.names{
+    font-size:larger;
+}
 }
